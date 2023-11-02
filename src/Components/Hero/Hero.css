@@ -1,0 +1,58 @@
+.headlines{
+    margin-top: 75px;
+    font-size: 85px;
+    line-height: 90px;
+}
+.headlines .star{
+    height: 52px;
+    position: relative;
+    left: 30px;
+    top: -15px;
+}
+.colored-text{
+    background-image: var(--linear-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.hero-text{
+    width: 65%;
+    margin-top: 45px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.hero-footer{
+    display: flex;
+    margin: 54px 0 0 0;
+    align-items: center;
+    gap: 25px;
+}
+.img-container1{
+display: inline-block;
+position: relative;
+}
+
+.img-container img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-container img:nth-child(2){
+    position: relative;
+    left: -15px;
+}
+.img-container img:nth-child(3){
+    position: relative;
+    left: -32px;
+}
+.hero-footer h5{
+    position: relative;
+    right: 50px;
+}
+.hero-footer p{
+    line-height: 1.5;
+    font-size: 14px;
+    color: slategray;
+    position: relative;
+    right: 50px;
+}
