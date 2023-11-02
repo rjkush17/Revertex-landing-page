@@ -1,0 +1,32 @@
+#bg-effect{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    box-shadow: 100px 100px 600px 200px #2a2b6a;
+    filter: blur(50px);
+    z-index: -999999;
+    position: absolute;
+}
+
+.div1{
+    top: 200px;
+    right: -60px;
+  
+}
+.div2{
+    top: 450px;
+    left: -300px;
+}
+
+.main{
+    width: 76%;
+    margin: 0 auto 0 auto;
+}
+
+@media (max-width: 900px) {
+    .main{
+        width: 95%;
+        margin: 0 auto 0 auto;
+    }
+}
