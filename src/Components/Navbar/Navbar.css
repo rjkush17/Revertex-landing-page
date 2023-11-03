@@ -23,6 +23,7 @@
 
 .navbar ul {
     display: flex;
+
 }
 
 .navbar ul li {
@@ -38,7 +39,7 @@
     .navbar {
         justify-content: start;
         gap: 10px;
-        height: 50px;
+        height: 40px;
     }
 
     .ham {
@@ -52,7 +53,7 @@
         margin-top: 10px;
     }
 
-    .navbar ul {
+    .navbar ul{
      
         height: calc(100vh - 50px);
         align-items: center;
@@ -61,20 +62,20 @@
         flex-direction: column;
         top: 50px;
         left: -140%;
-        width: calc(100vw + 10%);
-        margin-top: 40px;
-        gap: 20px;
-        z-index: -1;
+        width: 104vw;
+        padding: 40px;
+        gap: 25px;
         font-size: 20px;
-        transition: all ease-in-out 0.8s;
+        z-index: 99;
+        background-color: var(--black-color);
+
     }
-    #button{
+    .navbar #button{
         margin-left: auto;
         margin-top: 10px;
     }
     .isOpen ul {
         left: -10%;
-        background: var(--black);
     }
 }
 

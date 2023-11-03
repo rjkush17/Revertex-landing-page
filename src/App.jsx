@@ -1,7 +1,6 @@
 import Navbar from  './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero'
 import './App.css'
-import Silder from './Components/Silder/Silder';
 
 function App() {
 
@@ -13,7 +12,6 @@ function App() {
 
     <Navbar/>
     <Hero/>
-    <Silder/>
     </div>
     
   )
