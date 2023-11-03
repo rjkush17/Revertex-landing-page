@@ -1,6 +1,7 @@
 import Navbar from  './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero'
 import './App.css'
+import Slider from './Components/Slider/Slider';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
 
     <Navbar/>
     <Hero/>
+    <Slider/>
     </div>
     
   )

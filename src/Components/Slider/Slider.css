@@ -1,0 +1,82 @@
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.trust{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+    
+
+.slider {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+
+.sliders {
+    display: flex;
+    animation: 25s slide infinite linear;
+}
+
+.logos {
+    width: 142px;
+    height: 95px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    white-space: wrap;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    border: var(--ligth-color) 1px solid;
+    border-radius: 8px;
+}
+.logos:hover{
+    border:var(--white-color) 1px solid;
+    background-color: var(--white-color);
+    color: var( --primary-color ) ;
+}
+.uplift{
+    font-family: 'Kenia', sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+}
+.mojo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+.daniel{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+.mothership{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.bloom{
+    font-family: 'Playfair Display', serif;
+    line-height: .8;
+    font-weight: 500;
+}
+.spring{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+}
+.cipla{
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+}
