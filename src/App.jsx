@@ -5,6 +5,7 @@ import Slider from './Components/Slider/Slider';
 import Portfolio from './Components/Portfolio/Portfolio'
 import Project from './Components/Projects/Project';
 import Pricing from './Components/Pricing/Pricing';
+import Testimoanials from './Components/Testimoanials/Testimoanials';
 
 function App() {
 
@@ -13,13 +14,13 @@ function App() {
     <div className="main">
       <div id="bg-effect" className='div1'></div>
     <div id="bg-effect" className='div2'></div>
-
     <Navbar/>
     <Hero/>
     <Slider/>
     <Portfolio/>
     <Project/>
     <Pricing/>
+    <Testimoanials/>
     {/* Cursor , more shadows, */}
     </div>
     

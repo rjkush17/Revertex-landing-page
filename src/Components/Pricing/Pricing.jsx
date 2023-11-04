@@ -42,11 +42,11 @@ function Pricing() {
         setCurrent((prevCurrent) => (prevCurrent + 1) % pricingData.length);
       };
 
-      function setClasses(num){
-        if(num == current){
-          return "active"
-        }
-      }
+       function setClasses(num){
+    if(num == current){
+      return "active"
+    }
+  }
 
 
   return (

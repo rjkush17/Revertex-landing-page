@@ -102,24 +102,4 @@
     .card:hover{
         transform: translateY(0px);
     }
-    .dots{
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        width: fit-content;
-        margin: 0 auto 25px auto;
-
-    }
-    .dots span{
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        background-color: var(--text-color)
-    }
-
-    .dots .active{
-        width: 15px;
-        height: 15px;
-        background-color: var(--white-color)
-    }
  }
