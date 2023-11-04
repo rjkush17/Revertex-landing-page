@@ -1,0 +1,43 @@
+.card2{
+    border-radius: 15px;
+    height: 340px;
+    max-width: 350px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.card2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.hover-text{
+    padding: 11px;
+    padding-left: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    bottom: -100%;
+    position: absolute;
+    background-color: #9ca3af50;
+    transition: all ease 0.8s;
+
+}
+.hover-text svg{
+    font-size: 22px;
+}
+.card2:hover .hover-text{
+    bottom: 0;
+}
+
+@media (max-width:500px) {
+    .card-body2{
+        width: 100%;
+        border: none;
+    }
+    .card2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
