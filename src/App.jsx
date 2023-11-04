@@ -3,7 +3,7 @@ import Hero from './Components/Hero/Hero'
 import './App.css'
 import Slider from './Components/Slider/Slider';
 import Portfolio from './Components/Portfolio/Portfolio'
-import Project from './Components/Projects/PRoject';
+import Project from './Components/Projects/Project';
 
 function App() {
 
