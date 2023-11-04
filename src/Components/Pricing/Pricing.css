@@ -1,0 +1,70 @@
+.pricingcard {
+    width: 325px;
+    margin: 0 auto 0 auto;
+    border: var(--text-color) 2px solid;
+    border-radius: 13px;
+    padding: 27px 20px 20px 20px;
+    background-color: #9ca3af11;
+    transition: all ease-in .8s;
+}
+
+.pricingcard p:nth-child(3) {
+    color: var(--text-color);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.pricingcard h5 {
+    font-size: 42px;
+    font-weight: 600;
+}
+.pricingcard:hover{
+ transform: translateY(-20px);
+}
+
+.classList {
+    color: var(--text-color);
+    font-size: 13px;
+    line-height: 28px;
+}
+
+.classList li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.list-tick {
+    color: var(--primary-color);
+    font-size: 21px;
+    margin-right: 8px;
+}
+
+.list-button {
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white-color);
+    padding: 10px 12px;
+    font-size: 16px;
+    font-weight: 800;
+    border: var(--primary-color) 2px solid;
+    outline: none;
+    border-radius: 8px;
+    font-weight: normal;
+    align-items: center;
+}
+
+.list-button:hover {
+    background-color: var(--primary-color);
+}
+
+@media (max-width:500px) {
+    .pricingcard:hover{
+        transform: translateY(0px);
+       }
+}

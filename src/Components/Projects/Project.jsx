@@ -4,7 +4,7 @@ import star from "../Hero/star.png";
 import ProjectCard from "./ProjectCard";
 import p1 from "./img/1.png";
 import p2 from "./img/2.webp";
-import p3 from "./img/3.png";
+import p3 from "./img/3.jpg";
 import p4 from "./img/4.png";
 import p5 from "./img/5.webp";
 import p6 from "./img/6.webp";

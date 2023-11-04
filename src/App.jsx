@@ -4,6 +4,7 @@ import './App.css'
 import Slider from './Components/Slider/Slider';
 import Portfolio from './Components/Portfolio/Portfolio'
 import Project from './Components/Projects/Project';
+import Pricing from './Components/Pricing/Pricing';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
     <Slider/>
     <Portfolio/>
     <Project/>
-    {/* Cursor , */}
+    <Pricing/>
+    {/* Cursor , more shadows, */}
     </div>
     
   )
