@@ -45,6 +45,7 @@ p{
 
 #button{
   background: var(--primary-color);
+  font-family:'Open Sans', sans-serif;
   color: var(--white-color);
   padding: 10px 12px;
   font-size: 16px;
@@ -61,8 +62,7 @@ p{
   background-color: var(--black-color);
 
 }
-
-.arrow{
+.button-arrow{
   font-size: 24px;
 }
 

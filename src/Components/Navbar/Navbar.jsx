@@ -28,7 +28,7 @@ function navbar() {
             <li>FAQ</li>
         </ul>
 
-        <button id='button'>let's Talk <FiArrowUpRight className='arrow'/> </button>
+        <button id='button'>let's Talk <FiArrowUpRight className='button-arrow'/> </button>
     </nav>
    </>
   )

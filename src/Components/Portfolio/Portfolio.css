@@ -1,0 +1,118 @@
+.card-head p:nth-child(1){
+  color: var(--ligth-color);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.card-head h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.card-head .star{
+    height: 35px;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+.card-head p:nth-child(3){
+    color: var(--text-color)
+}
+
+.card-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin-top: 50px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.card{
+    border: var(--text-color) 1px solid;
+    border-radius: 15px;
+    height: 340px;
+    max-width: 350px;
+    background-color: #9ca3af1a;
+    padding:25px 16px 16px 16px;
+    position: relative;
+    transition: all ease-in-out .8s;
+    
+}
+.card img{
+    height: 80px;
+    padding: 5px;
+    background-color: aquamarine;
+    background-color: #9ca3af7f;
+    border-radius: 15px;
+}
+.card h3{
+    font-size: 20px;
+}
+.card p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 15px;
+    margin-top: 10px;
+    
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.arrow{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--text-color) 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 6px;
+   
+}
+.arrow svg{
+    font-size: 32px;
+}
+.arrow:hover{
+    background: var(--white-color);
+    color: var(--ligth-color);
+}
+
+@media (max-width:1000px) {
+   .card-body{
+    grid-template-columns: 1fr 1fr;
+   }
+}
+@media (max-width:500px) {
+    .card-body{
+     grid-template-columns: 1fr;
+    }
+    .card:hover{
+        transform: translateY(0px);
+    }
+    .dots{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: fit-content;
+        margin: 0 auto 25px auto;
+
+    }
+    .dots span{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: var(--text-color)
+    }
+
+    .dots .active{
+        width: 15px;
+        height: 15px;
+        background-color: var(--white-color)
+    }
+ }

@@ -26,7 +26,7 @@ function Hero() {
       <div className="hero-footer">
         <button id="button">
           View Work
-          <FiArrowUpRight className="arrow" />
+          <FiArrowUpRight className="button-arrow" />
         </button>
         <div className="img-container">
           <div>
