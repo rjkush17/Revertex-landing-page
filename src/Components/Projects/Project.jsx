@@ -17,10 +17,17 @@ function Project() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 500) {
-      setisMobile2(true);
+    function checkIsMobile() {
+      let width = window.innerWidth;
+      if (width < 500) {
+        setisMobile2(true);
+      } else {
+        setisMobile2(false);
+      }
     }
+
+    window.addEventListener("resize", checkIsMobile);
+    checkIsMobile();
 
     const intervalId = setInterval(function () {
       setCurrent((prevCurrent) => (prevCurrent + 1) % imgData.length);

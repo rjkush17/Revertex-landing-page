@@ -50,10 +50,16 @@ function Portfolio() {
 
   useEffect(() => {
 
-    let width = window.innerWidth;
-    if (width < 500) {
-      setisMobile(true);
+   function checkIsMobile() {
+      let width = window.innerWidth;
+      if (width < 500) {
+        setisMobile(true);
+      } else {
+        setisMobile(false);
+      }
     }
+    window.addEventListener("resize", checkIsMobile);
+    checkIsMobile();
 
     const intervalId = setInterval(function () {
       setCurrent((prevCurrent) => (prevCurrent + 1) % portfolioData.length);

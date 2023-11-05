@@ -24,11 +24,18 @@ function Pricing() {
     const [current, setCurrent] = useState(0);
 
     useEffect(() => {
+      function checkIsMobile() {
         let width = window.innerWidth;
         if (width < 500) {
           setisMobile(true);
+        } else {
+          setisMobile(false);
         }
-    
+      }
+  
+      window.addEventListener("resize", checkIsMobile);
+      checkIsMobile();
+
         const intervalId = setInterval(function () {
           setCurrent((prevCurrent) => (prevCurrent + 1) % pricingData.length);
         }, 4000);
