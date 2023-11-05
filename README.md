@@ -4,7 +4,7 @@ Welcome to my web development project! This project is a demonstration of my ski
 
 ## Demo
 
-You can see live demo - https://revertex.vercel.app/
+You can see live demo - https://revertex-rishabh.netlify.app/
 
 
 ## Screenshots
