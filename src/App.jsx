@@ -15,6 +15,13 @@ function App() {
     <div className="main">
       <div id="bg-effect" className='div1'></div>
     <div id="bg-effect" className='div2'></div>
+    <div id="bg-effect" className='div3'></div>
+    <div id="bg-effect" className='div4'></div>
+    <div id="bg-effect" className='div5'></div>
+    <div id="bg-effect" className='div6'></div>
+    <div id="bg-effect" className='div7'></div>
+    <div id="bg-effect" className='div8'></div>
+    <div id="bg-effect" className='div9'></div>
     <Navbar/>
     <Hero/>
     <Slider/>

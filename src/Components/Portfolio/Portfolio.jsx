@@ -49,6 +49,7 @@ function Portfolio() {
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
+
     let width = window.innerWidth;
     if (width < 500) {
       setisMobile(true);
