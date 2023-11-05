@@ -6,6 +6,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import Project from './Components/Projects/Project';
 import Pricing from './Components/Pricing/Pricing';
 import Testimoanials from './Components/Testimoanials/Testimoanials';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
     <Project/>
     <Pricing/>
     <Testimoanials/>
+    <Footer/>
     {/* Cursor , more shadows, */}
     </div>
     
